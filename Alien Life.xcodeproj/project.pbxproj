@@ -15,6 +15,7 @@
 		41A326921E4624DA00F522B6 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A326911E4624DA00F522B6 /* Story.swift */; };
 		41A326941E46292200F522B6 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A326931E46292200F522B6 /* Page.swift */; };
 		41A326961E462EF500F522B6 /* Adventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A326951E462EF500F522B6 /* Adventure.swift */; };
+		41A326981E46310B00F522B6 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A326971E46310B00F522B6 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		41A326911E4624DA00F522B6 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		41A326931E46292200F522B6 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		41A326951E462EF500F522B6 /* Adventure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
+		41A326971E46310B00F522B6 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				41A3267B1E46244E00F522B6 /* ViewController.swift */,
+				41A326971E46310B00F522B6 /* PageController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				41A3267C1E46244E00F522B6 /* ViewController.swift in Sources */,
 				41A3267A1E46244E00F522B6 /* AppDelegate.swift in Sources */,
+				41A326981E46310B00F522B6 /* PageController.swift in Sources */,
 				41A326941E46292200F522B6 /* Page.swift in Sources */,
 				41A326961E462EF500F522B6 /* Adventure.swift in Sources */,
 				41A326921E4624DA00F522B6 /* Story.swift in Sources */,
