@@ -31,7 +31,7 @@
                                 </constraints>
                                 <state key="normal" title="Start Your Adventure"/>
                                 <connections>
-                                    <segue destination="6gg-ge-DOz" kind="show" id="2WJ-z0-RCk"/>
+                                    <segue destination="6gg-ge-DOz" kind="show" identifier="PageController" id="2WJ-z0-RCk"/>
                                 </connections>
                             </button>
                         </subviews>
