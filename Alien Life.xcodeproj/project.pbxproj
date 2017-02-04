@@ -54,14 +54,62 @@
 		41A326781E46244E00F522B6 /* Alien Life */ = {
 			isa = PBXGroup;
 			children = (
-				41A326791E46244E00F522B6 /* AppDelegate.swift */,
-				41A3267B1E46244E00F522B6 /* ViewController.swift */,
-				41A3267D1E46244E00F522B6 /* Main.storyboard */,
-				41A326801E46244E00F522B6 /* Assets.xcassets */,
-				41A326821E46244E00F522B6 /* LaunchScreen.storyboard */,
-				41A326851E46244E00F522B6 /* Info.plist */,
+				41A326901E46247B00F522B6 /* Storyboard */,
+				41A3268F1E46247100F522B6 /* Model */,
+				41A3268E1E46246C00F522B6 /* View */,
+				41A3268D1E46246300F522B6 /* Controller */,
+				41A3268C1E46245E00F522B6 /* Source */,
+				41A3268B1E46245600F522B6 /* Resources */,
 			);
 			path = "Alien Life";
+			sourceTree = "<group>";
+		};
+		41A3268B1E46245600F522B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41A326801E46244E00F522B6 /* Assets.xcassets */,
+				41A326851E46244E00F522B6 /* Info.plist */,
+				41A326821E46244E00F522B6 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41A3268C1E46245E00F522B6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				41A326791E46244E00F522B6 /* AppDelegate.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		41A3268D1E46246300F522B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41A3267B1E46244E00F522B6 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		41A3268E1E46246C00F522B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		41A3268F1E46247100F522B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		41A326901E46247B00F522B6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				41A3267D1E46244E00F522B6 /* Main.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
