@@ -27,7 +27,7 @@
 		413C30A81E471FF80077FE03 /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
 		413C30A91E471FF80077FE03 /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
 		413C30AD1E4720270077FE03 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
-		41A326761E46244E00F522B6 /* Alien Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alien Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A326761E46244E00F522B6 /* Space Exploration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Exploration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A326791E46244E00F522B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A3267B1E46244E00F522B6 /* LandingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingController.swift; sourceTree = "<group>"; };
 		41A3267E1E46244E00F522B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		41A3266D1E46244D00F522B6 = {
 			isa = PBXGroup;
 			children = (
-				41A326781E46244E00F522B6 /* Alien Life */,
+				41A326781E46244E00F522B6 /* Space Exploration */,
 				41A326771E46244E00F522B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,12 +72,12 @@
 		41A326771E46244E00F522B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41A326761E46244E00F522B6 /* Alien Life.app */,
+				41A326761E46244E00F522B6 /* Space Exploration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41A326781E46244E00F522B6 /* Alien Life */ = {
+		41A326781E46244E00F522B6 /* Space Exploration */ = {
 			isa = PBXGroup;
 			children = (
 				41A3268F1E46247100F522B6 /* Model */,
@@ -87,6 +87,7 @@
 				41A3268C1E46245E00F522B6 /* Source */,
 				41A3268B1E46245600F522B6 /* Resources */,
 			);
+			name = "Space Exploration";
 			path = "Alien Life";
 			sourceTree = "<group>";
 		};
@@ -147,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41A326751E46244D00F522B6 /* Alien Life */ = {
+		41A326751E46244D00F522B6 /* Space Exploration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41A326881E46244E00F522B6 /* Build configuration list for PBXNativeTarget "Alien Life" */;
+			buildConfigurationList = 41A326881E46244E00F522B6 /* Build configuration list for PBXNativeTarget "Space Exploration" */;
 			buildPhases = (
 				41A326721E46244D00F522B6 /* Sources */,
 				41A326731E46244D00F522B6 /* Frameworks */,
@@ -159,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = "Alien Life";
+			name = "Space Exploration";
 			productName = "Alien Life";
-			productReference = 41A326761E46244E00F522B6 /* Alien Life.app */;
+			productReference = 41A326761E46244E00F522B6 /* Space Exploration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 41A326711E46244D00F522B6 /* Build configuration list for PBXProject "Alien Life" */;
+			buildConfigurationList = 41A326711E46244D00F522B6 /* Build configuration list for PBXProject "Space Exploration" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41A326751E46244D00F522B6 /* Alien Life */,
+				41A326751E46244D00F522B6 /* Space Exploration */,
 			);
 		};
 /* End PBXProject section */
@@ -349,8 +350,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69CH9UTLK7;
 				INFOPLIST_FILE = "Alien Life/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Moaz.Alien-Life";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moaz.Space-Exploration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -362,8 +364,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69CH9UTLK7;
 				INFOPLIST_FILE = "Alien Life/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Moaz.Alien-Life";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moaz.Space-Exploration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -372,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41A326711E46244D00F522B6 /* Build configuration list for PBXProject "Alien Life" */ = {
+		41A326711E46244D00F522B6 /* Build configuration list for PBXProject "Space Exploration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41A326861E46244E00F522B6 /* Debug */,
@@ -381,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41A326881E46244E00F522B6 /* Build configuration list for PBXNativeTarget "Alien Life" */ = {
+		41A326881E46244E00F522B6 /* Build configuration list for PBXNativeTarget "Space Exploration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41A326891E46244E00F522B6 /* Debug */,
