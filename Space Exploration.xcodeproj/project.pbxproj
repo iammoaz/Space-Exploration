@@ -33,7 +33,7 @@
 		41A3267E1E46244E00F522B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41A326801E46244E00F522B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		41A326831E46244E00F522B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		41A326851E46244E00F522B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A326851E46244E00F522B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Volumes/Hardest Drive/Learning/iOS/Space Exploration/Space Exploration/Info.plist"; sourceTree = "<absolute>"; };
 		41A326911E4624DA00F522B6 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		41A326931E46292200F522B6 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		41A326951E462EF500F522B6 /* Adventure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 				41A3268B1E46245600F522B6 /* Resources */,
 			);
 			name = "Space Exploration";
-			path = "Alien Life";
-			sourceTree = "<group>";
+			path = "/Volumes/Hardest Drive/Learning/iOS/Space Exploration/Space Exploration";
+			sourceTree = "<absolute>";
 		};
 		41A3268B1E46245600F522B6 /* Resources */ = {
 			isa = PBXGroup;
@@ -349,7 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69CH9UTLK7;
-				INFOPLIST_FILE = "Alien Life/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Space Exploration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Moaz.Space-Exploration";
@@ -363,7 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 69CH9UTLK7;
-				INFOPLIST_FILE = "Alien Life/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Space Exploration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Moaz.Space-Exploration";
