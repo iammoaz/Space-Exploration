@@ -26,27 +26,47 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1S8-JN-Q4J">
                                 <rect key="frame" x="8" y="613" width="359" height="46"/>
+                                <color key="backgroundColor" red="0.43529411764705883" green="0.75686274509803919" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="uav-cd-Ryk"/>
                                 </constraints>
-                                <state key="normal" title="Start Your Adventure"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="16"/>
+                                <state key="normal" title="Start Your Adventure">
+                                    <color key="titleColor" red="0.14901960784313725" green="0.16862745098039217" blue="0.19215686274509805" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="6gg-ge-DOz" kind="show" identifier="PageController" id="2WJ-z0-RCk"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your name" textAlignment="natural" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="lyD-zf-JxA">
+                                <rect key="frame" x="12" y="477" width="351" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="EtA-jX-tMZ"/>
+                                </constraints>
+                                <color key="textColor" red="0.13333333333333333" green="0.14901960784313725" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="1S8-JN-Q4J" firstAttribute="top" secondItem="lyD-zf-JxA" secondAttribute="bottom" constant="100" id="Aex-Jc-6F2"/>
                             <constraint firstItem="TsR-T5-0em" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Bwa-xT-6uT"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1S8-JN-Q4J" secondAttribute="bottom" constant="8" id="Le7-Mf-BId"/>
                             <constraint firstAttribute="trailing" secondItem="TsR-T5-0em" secondAttribute="trailing" id="PB2-p9-bXK"/>
                             <constraint firstAttribute="trailing" secondItem="1S8-JN-Q4J" secondAttribute="trailing" constant="8" id="QTz-Ud-bmP"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TsR-T5-0em" secondAttribute="bottom" id="bnT-xy-BgA"/>
+                            <constraint firstItem="lyD-zf-JxA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="12" id="jFa-Wd-wqy"/>
                             <constraint firstItem="TsR-T5-0em" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rLi-4Q-DbG"/>
                             <constraint firstItem="1S8-JN-Q4J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="wa4-bZ-W3J"/>
+                            <constraint firstAttribute="trailing" secondItem="lyD-zf-JxA" secondAttribute="trailing" constant="12" id="yOB-fj-ibh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="i0G-hH-3fz"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="lyD-zf-JxA" id="Lb9-GI-Tyd"/>
+                        <outlet property="nameTextFieldBottomConstraint" destination="Aex-Jc-6F2" id="Pol-by-es2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
