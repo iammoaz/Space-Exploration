@@ -11,6 +11,7 @@ import UIKit
 class PageController: UIViewController {
     
     var page: Page?
+    let soundPlayer = Sound()
     
     lazy var artworkView: UIImageView = {
         let imageView = UIImageView()
@@ -114,7 +115,7 @@ class PageController: UIViewController {
         guard let page = page, let firstChoice = page.firstChoice else { return }
         let nextPage = firstChoice.page
         let pageController = PageController(page: nextPage)
-        
+        soundPlayer.playSound(for: firstChoice.page.story)
         navigationController?.pushViewController(pageController, animated: true)
     }
     
@@ -122,7 +123,7 @@ class PageController: UIViewController {
         guard let page = page, let secondChoice = page.secondChoice else { return }
         let nextPage = secondChoice.page
         let pageController = PageController(page: nextPage)
-        
+        soundPlayer.playSound(for: secondChoice.page.story)
         navigationController?.pushViewController(pageController, animated: true)
     }
     

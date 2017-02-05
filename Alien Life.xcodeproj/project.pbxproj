@@ -10,6 +10,7 @@
 		413C30AA1E471FF80077FE03 /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 413C30A71E471FF80077FE03 /* HappyEnding.wav */; };
 		413C30AB1E471FF80077FE03 /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = 413C30A81E471FF80077FE03 /* Ominous.wav */; };
 		413C30AC1E471FF80077FE03 /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 413C30A91E471FF80077FE03 /* PageTurn.wav */; };
+		413C30AE1E4720270077FE03 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413C30AD1E4720270077FE03 /* Sound.swift */; };
 		41A3267A1E46244E00F522B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A326791E46244E00F522B6 /* AppDelegate.swift */; };
 		41A3267C1E46244E00F522B6 /* LandingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A3267B1E46244E00F522B6 /* LandingController.swift */; };
 		41A3267F1E46244E00F522B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A3267D1E46244E00F522B6 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		413C30A71E471FF80077FE03 /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
 		413C30A81E471FF80077FE03 /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
 		413C30A91E471FF80077FE03 /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		413C30AD1E4720270077FE03 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		41A326761E46244E00F522B6 /* Alien Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alien Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A326791E46244E00F522B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A3267B1E46244E00F522B6 /* LandingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				41A326911E4624DA00F522B6 /* Story.swift */,
 				41A326931E46292200F522B6 /* Page.swift */,
 				41A326951E462EF500F522B6 /* Adventure.swift */,
+				413C30AD1E4720270077FE03 /* Sound.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413C30AE1E4720270077FE03 /* Sound.swift in Sources */,
 				41A3267C1E46244E00F522B6 /* LandingController.swift in Sources */,
 				41A3267A1E46244E00F522B6 /* AppDelegate.swift in Sources */,
 				41A326981E46310B00F522B6 /* PageController.swift in Sources */,
